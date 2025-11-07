@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e06ea7 0%, #000000 100%);
+  color: #000;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #e5e5e5;
+  padding: 20px;
+}
+
+/* Banner Section */
+.banner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 300px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.banner-desc {
+  font-size: 13px;
+  color: #333;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* Main Image */
+.main-image {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.main-image img {
+  width: 100%;
+  max-width: 600px;   
+  height: 300px;       
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.main-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.main-logo {
+  width: 100%;
+  max-width: 500px;
+  height: ;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.image-desc {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Description and Button */
+.description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+
+.button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e06ea7;
+  color: #000;
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.service {
+  width: 40%;
+  text-align: center;
+}
+
+.service img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Footer Section */
+footer {
+  background-color: #ddd;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: gray;
+}
+
+footer a {
+  color: gray;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.view-link {
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.unsubscribe {
+  margin-top: 10px;
+}
