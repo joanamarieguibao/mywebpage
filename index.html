@@ -1,60 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Page</title>
-  <link rel="stylesheet" href="jostyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <link href="joanaguibaostyle.css" rel="stylesheet">
+
 </head>
 <body>
-  <div class="container">
-    <!-- Banner Section -->
-    <div class="banner">
-      <a href="https://www.penshoppe.com/?srsltid=AfmBOopwPFr4JkOvKcPhlk1iLG6XrBM7WM6AIETYzwXdcdCyIqqNBCop" target="_blank">
-        <img src="images/penshoppe bini banner.gif" alt="Penshoppe Ad Banner">
-      </a>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Panpacific University Student Personal Page</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="../Landing Page/index.html" target="_blank">Product</a></li>
+                <li><a href="../Joana Marie Guibao.html" target="_blank">Personal Profile</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="../Landing Page/index.html" target="_blank">Product</a></li>
+            <li><a href="../Joana Marie Guibao.html" target="_blank">Personal Profile</a></li>
+        </ul>
     </div>
 
-    <!-- Main Image Section -->
-    <div class="main-image">
-      <img src="images/main.jpg" alt="Main Logo">
-      <p class="image-desc">
-      </p>
-    </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-subtitle">Web Systems and Technologies</div>
+            <h1>Welcome!</h1>
+            <p class="subtitle">Blending design and technology to shape ideas into reality.</p>
+            <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
+    </section>
 
-    <!-- Description Section -->
-    <div class="description">
-      <p>Penshoppe × BINI Collection</p>
-      <p>A vibrant collaboration between the iconic fashion brand and the nation’s girl group.</p>
-      <p>Captures BINI’s youthful energy and confident charm, featuring pastel tones, playful silhouettes, and trendy casual pieces perfect for everyday wear.</p> 
-      <div class="button-section">
-        <a href="../Personal Page/index.html" class="button" target="_blank">Personal Page</a>
-      </div>
-      <p>Designed to inspire self-expression, the line blends Penshoppe’s modern street style with BINI’s fresh and empowering aesthetic.</p>
-      <p>A celebration of fun, confidence, and individuality.</p>
-    </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left"></div>
+                <div class="about-text slide-in-right">
+                    <h3>I am Joana Marie Guibao, BSIT 2A from Urdaneta Campus.</h3>
+                    <p>A student who enjoys exploring the world of technology and discovering how it connects to everyday life. I love playing mobile games during my free time because they help me relax and sharpen my focus. I also like watching TikTok videos, especially those that inspire creativity or teach something new.</p>
+                    <p>Editing videos has become one of my favorite hobbies, as it allows me to express my ideas through visuals and sound. I often work on small digital projects to apply what I’ve learned in class and to improve my skills little by little. These activities help me stay motivated and passionate about growing as a future IT professional.</p>
+                    <div class="skills">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Video Editing</span>
+                        <span class="skill-tag">Programming</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Services Section -->
-    <div class="services">
-      <div class="service">
-        <img src="images/item1.jpg" alt="Description 1">
-        <p>Chic, Fearless, Iconic</p>
-        <p>Features a black button-down top, mini skirt with tie detail, and a white cropped inner top, styled with a beret and pointed heels for a sleek, city-chic look. Perfect for effortless street style with a touch of sophistication.</p>
-      </div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+        
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Work</h2>
 
-      <div class="service">
-        <img src="images/item2.png" alt="Description 2">
-        <p>Eau de Toilette (60 mL)</p>
-        <p>A fresh and feminine fragrance that embodies confidence and charm. Housed in a chic pink bottle with gold detailing, this scent offers a delicate balance of floral and fruity notes, perfect for everyday wear or special occasions.</p>
-      </div>
-    </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>UI/UX Design</h4>
+                        <p>Focuses on creating visually appealing and user-friendly interfaces, ensuring an intuitive and enjoyable experience for users interacting with digital products.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">User-Centered Design</span>
+                            <span class="tech-tag">Visual Design</span>
+                            <span class="tech-tag">Responsive Design</span>
+                            <span class="tech-tag">Wireframing & Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Web Development</h4>
+                        <p>Involves building and maintaining websites or web applications, including coding, server management, and ensuring functionality across devices and browsers.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Front-End</span>
+                            <span class="tech-tag">Back-End</span>
+                            <span class="tech-tag">Full Stack</span>
+                            <span class="tech-tag">Performance Optimization</span>
+                            <span class="tech-tag">Cross-Browser Compatibility</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Video Editing</h4>
+                        <p>The process of assembling, cutting, and enhancing video footage to create a polished final product, often adding effects, transitions, audio, and graphics.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Motion Graphics</span>
+                            <span class="tech-tag">Transition & Effects</span>
+                            <span class="tech-tag">Audio Editing</span>
+                            <span class="tech-tag">Cutting & Trimming</span>
+                            <span class="tech-tag">Color Correction & Grading</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Programming</h4>
+                        <p>Writing instructions in a programming language to create software, applications, or scripts that perform specific tasks on computers or other devices.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Code Logic & Syntax</span>
+                            <span class="tech-tag">Modularity & Reusability</span>
+                            <span class="tech-tag">Problem Solving & Algorithm</span>
+                            <span class="tech-tag">Debugging & Testing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Footer Section -->
-    <footer>
-      <p class="view-link"><a href="#">View as a Web Page</a></p>
-      <p>Web Systems Technology<br>Panpacific University Urdaneta</p>
-      <p class="unsubscribe"><a href="#">unsubscribe</a></p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Let's Work Together</h2>
+                <p class="fade-in">Ready to bring your vision to life? Let's discuss how we can create something amazing together. I'm always excited to take on new challenges and collaborate on innovative projects.</p>
+                <form class="contact-form fade-in">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left"> 2025 WST 249</div>
+                <div class="footer-right">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Use</a>
+                    <a href="#sitemap">Sitemap</a>
+                </div>
+            </div>
+        </div>
     </footer>
-  </div>
 </body>
 </html>
